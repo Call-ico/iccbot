@@ -3,9 +3,6 @@ from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, Con
 import datetime
 import json
 
-TOKEN = '8126874985:AAFDkWiiUOmG5jKOViBtjs-4BiC0CpBqprM'
-ADMIN_CHAT_ID = -1002699790388  # ID административного канала (начинается с "-100" для каналов)
-
 # Словарь для хранения тикетов в памяти (можно заменить на базу или файл)
 tickets = {}
 
